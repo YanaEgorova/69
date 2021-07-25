@@ -15,7 +15,7 @@ overlay.addEventListener('click',closePopupOverlay);
 
 
 function showPopup(e) {
-    const btn = e.currentTarget.getAttribute('id');
+    const btn = e.currentTarget.getAttribute('data-btn-id');
     body.classList.add('popup--active');
     popupContents.forEach(content => {
         if(content.getAttribute('data-id') === btn) {
