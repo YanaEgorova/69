@@ -1,0 +1,12 @@
+.about__wrapper {
+
+}
+.about {
+
+}
+@media screen and (min-width: 1024px)  {
+    .about .img {
+        height: 33rem;
+        object-fit: cover;
+    }
+}
